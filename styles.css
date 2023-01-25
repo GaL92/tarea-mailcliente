@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    padding: 10px;
+    font-size: 30px;
+    font-family:"Comic Sans",cursive;
+    font-style: oblique ;
+    text-align: left;
+    border: 3px solid #bbb;
+}
+
+img{
+    max-width: 100%;
+    
+}
+
+header>img{
+    width:75%;
+    height: 5%;
+}
+
+
+
+nav > a {
+    background-color: yellowgreen;
+    color:white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px;
+    position: relative;
+top: 40px; left: 500px;
+    
+}
+
+
