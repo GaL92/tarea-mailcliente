@@ -8,14 +8,8 @@
 body{
     padding: 50px 100px 50px 150px  ;
 }
-header h1{
-    
-    font-size: 45px;
-    font-style: oblique ;
-    text-align: left;
-    position: relative;
-    top: 20px; left: 20px;
-}
+
+header h1
 
 img{
     max-width: 100%;
@@ -27,7 +21,13 @@ header>img{
     height: 5%;
 }
 
+header h1{
 
+    font-size: 45px;
+    font-style: oblique ;
+    position: relative;
+    top: 30px;
+}
 
 nav  a {
     background-color: rgb(78, 100, 197);
@@ -35,7 +35,6 @@ nav  a {
     border-width: 1px;
     border-color: rgb(5, 5, 5);
     box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
-    
     color:white;
     font-size: 20px;
     text-decoration: none;
@@ -47,7 +46,7 @@ nav  a {
 }
 
 
-header div{
+header .banner{
 
     background-image:url(./img_task2/design1_image2.jpg);
     background-size:cover;
@@ -59,7 +58,10 @@ div img{
 max-width: 100%;
 max-height: 100%;
 }
-    
+
+article img, .enlinea {
+    display: inline-block;
+}
 
 
 
