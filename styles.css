@@ -2,16 +2,19 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family:"Comic Sans",cursive;
 }
 
-
-header{
-    padding: 10px;
-    font-size: 30px;
-    font-family:"Comic Sans",cursive;
+body{
+    padding: 50px 100px 50px 150px  ;
+}
+header h1{
+    
+    font-size: 45px;
     font-style: oblique ;
     text-align: left;
-    border: 3px solid #bbb;
+    position: relative;
+    top: 20px; left: 20px;
 }
 
 img{
@@ -26,15 +29,39 @@ header>img{
 
 
 
-nav > a {
-    background-color: yellowgreen;
+nav  a {
+    background-color: rgb(78, 100, 197);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(5, 5, 5);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+    
     color:white;
+    font-size: 20px;
     text-decoration: none;
-    padding: 10px 20px;
-    margin: 10px;
+    padding: 2px 17px;
+    margin: 5px;
     position: relative;
-top: 40px; left: 500px;
+    top: 10px; left: 700px;
     
 }
+
+
+header div{
+
+    background-image:url(./img_task2/design1_image2.jpg);
+    background-size:cover;
+    width:1025px;
+    height: 200px;
+}
+
+div img{
+max-width: 100%;
+max-height: 100%;
+}
+    
+
+
+
 
 
