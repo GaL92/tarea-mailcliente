@@ -3,31 +3,25 @@
     padding: 0;
     margin: 0;
     font-family:"Comic Sans",cursive;
-}
-
-body{
-    padding: 50px 100px 50px 150px  ;
-}
-
-header h1
-
-img{
-    max-width: 100%;
     
 }
 
-header>img{
-    width:75%;
-    height: 5%;
+body{
+    padding: 20px 100px 50px 150px  ;
 }
 
-header h1{
+header{
+    width:1050px;
+}
 
-    font-size: 45px;
+header p{
+    font-size: 48px;
     font-style: oblique ;
     position: relative;
     top: 30px;
 }
+
+
 
 nav  a {
     background-color: rgb(78, 100, 197);
@@ -42,28 +36,51 @@ nav  a {
     margin: 5px;
     position: relative;
     top: 10px; left: 700px;
-    
 }
 
-
 header .banner{
-
     background-image:url(./img_task2/design1_image2.jpg);
     background-size:cover;
-    width:1025px;
+    max-width: 100%;
     height: 200px;
 }
 
-div img{
-max-width: 100%;
-max-height: 100%;
+header .subtitulo{
+    text-align: center;
+    border:1px solid #000;
+    max-width:100% ;
+    
+
 }
 
 article img, .enlinea {
     display: inline-block;
 }
 
+article .about{
+    width:750px;
+    height:500px;
+    position: relative;
+    top: 50px;
+    display:inline-block;
+}
+
+.about-img{
+    position: relative;
+    top: -110px;
+    display:inline-block;
+}
 
 
+article img, .contact{
+   
+    display:inline-block;
+}
 
-
+.contact{
+    position: relative;
+    top: -90px;
+}
+article p{
+ text-indent: 10px;   
+}
