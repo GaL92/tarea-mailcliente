@@ -21,7 +21,9 @@ header p{
     top: 30px;
 }
 
-
+h4 {
+    font-weight: lighter;
+}
 
 nav  a {
     background-color: rgb(78, 100, 197);
