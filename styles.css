@@ -2,7 +2,6 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family:"Comic Sans",cursive;
     
 }
 
@@ -25,8 +24,6 @@ header p{
 h4 {
     font-weight: lighter;
 }
-
-
 
 nav  a {
     background-color: rgb(78, 100, 197);
@@ -54,8 +51,6 @@ header .subtitulo{
     text-align: center;
     border:1px solid #000;
     max-width:100% ;
-    
-
 }
 
 article img, .enlinea {
@@ -88,4 +83,20 @@ article img, .contact{
 }
 article p{
  text-indent: 15px;   
+}
+
+table{
+    width:500px;
+    border:3px solid rgb(0, 0, 0);
+    text-align: center;
+    line-height: 30px;
+}
+
+th{
+    border: 3px solid rgb(9, 9, 9);
+}
+
+table tr{
+    background-color: #ede23e;
+    
 }
