@@ -105,10 +105,11 @@ article img, .contact{
     top: -90px;
 }
 
-.main-game-info{
-position: relative;
-Top: 30px;
+.logo{
+    display: inline-block;
 }
+
+
 article p{
  text-indent: 15px;   
 }
@@ -117,8 +118,31 @@ table{
     width:500px;
     border:3px solid rgb(0, 0, 0);
     text-align: center;
-    line-height: 30px;
+    line-height: 30px; 
 }
+
+.logo{
+    position: relative;
+    top: 10px;
+}
+
+.table-game{
+    position:relative;
+    left: 80px;
+    
+}
+
+
+.logo-tabla{
+    display: flex;
+    
+    
+}
+
+.table-game, .logo{
+    display:inline-block;  
+}
+
 
 th{
     border: 3px solid rgb(9, 9, 9);
@@ -136,21 +160,23 @@ table tr{
 }
 
 
-.h3-enlinea{
-    display: inline-block;
-}
-
-.h3-game, .h2-game{
+.h2-game{
     font-family:"Helvetica Neue",Helvetica,Arial;
     font-weight: lighter;
-    display: inline-block;
 }
 
-.main-rules{
-    font-family:"Helvetica Neue",Helvetica,Arial;
+caption h2,h3{
+    text-align: left;
+
 }
 
-.subOL{
+.main-rules h2, p{
+    text-align: center;
+    
+    
+}
+
+.sub{
     list-style-type: lower-alpha;
 }
 
