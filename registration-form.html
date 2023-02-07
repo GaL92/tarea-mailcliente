@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formularios y mapas</title>
+</head>
+<body>
+    <section>
+        
+        <div class="box-form">
+        <p class="titulo-form">Registration form</p><br>
+        <form action="./showdata.html" method="GET">
+            <label for="i_name">Player's first name:  <input type="text" name="player_first_name"></label>
+            <label for="i_lastname">Last name: <input type="text" name="last-name"></label><br><br>
+            <label for="i_sadress">Street Adress: <input type="text" name="street-address"></label><br><br>
+            <label for="i_city">City:  <input type="text" name="city"></label>
+            <label for="i_zcode">Zip Code: <input type="number" name="zip-code"></label><br><br>
+            <label for="">
+                <span>Birth Date (mm/dd/yyyy):</span>
+                <input type="datetime">
+            </label>
+            <span>Gender:</span>
+            <label for=""><input type="radio" name="gender" value="female" checked>Female</label>
+            <label for=""><input type="radio" name="gender" value="male">Male</label>  <br><br> 
+            <span>Grade:</span>
+            <label for=""><input type="radio" name="Grade" value="Pre-school">Pre-school</label>
+            <label for=""><input type="radio" name="Grade" value="1st">1st</label>
+            <label for=""><input type="radio" name="Grade" value="2nd">2nd</label>
+            <label for=""><input type="radio" name="Grade" value="3rd">3rd</label>
+            <label for=""><input type="radio" name="Grade" value="4th">4th</label>
+            <label for=""><input type="radio" name="Grade" value="5th">5th</label><br><br>
+            <h4>Which elementary school do you live near? </h4><br>
+            <span>Closest schools:</span><br>
+            <label for=""><input type="radio" name="school" value="aj-katsenmaier">Aj-katsenmaier</label>
+            <label for=""><input type="radio" name="school" value="Greenbay">Greenbay</label>
+            <label for=""><input type="radio" name="school" value="Howard A Yeager">Howard A Yeager</label><br>
+            <label for=""><input type="radio" name="school" value="Marojorie P Hart">Marojorie P Hart</label>
+            <label for=""><input type="radio" name="school" value="North Elementary">North Elementary</label>
+            <label for=""><input type="radio" name="school" value="South Elementary">South Elementary</label><br><br>
+            <h4>What position(s) do you normally play? (check all that apply)</h4><br>
+            <label for=""><input type="checkbox" name="Forward" value="Forawrd">Forawrd</label>
+            <label for=""><input type="checkbox" name="Defense" value="Defense">Defense</label><br>
+            <label for=""><input type="checkbox" name="Midfield" value="Midfield">Midfield</label><br>
+            <label for=""><input type="checkbox" name="Goalkeeper" value="Goalkeeper">Goalkeeper</label><br><br>
+            
+            <h4>Uniform size</h4>
+            <label for=""><input type="checkbox" name="Youthsmal" value="Youth Smal">Aj-katsenmaier</label>
+            <label for=""><input type="checkbox" name="Youth Medium" value="Youth Medium">Greenbay</label><br>
+            <label for=""><input type="checkbox" name="Youth Large" value="Youth Large">Howard A Yeager</label><br>
+            <label for=""><input type="checkbox" name="Small" value="Small">Small</label>
+            <label for=""><input type="checkbox" name="Medium" value="Medium">Medium</label>
+            <label for=""><input type="checkbox" name="Large" value="Large">Large</label>
+            <label for=""><input type="checkbox" name="Extralarge" value="Extralarge">Extralarge</label> <br><br>
+
+            <h4>Permission to Play</h4>
+            <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MOHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MOHL, their employees and associated personnel and volunteers,including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MOHL sponsored activities,which transportation
+                By signing below, I herebyagree andauthorizethe above.In addition, by signing below, lalso acknowledge that I have read the cancellation policy and agree to its terms.
+            </p><br><br>
+
+            <label for="i_parent">Parent/GuardianSignature: <input type="text" name="parent-guardiansignature"></label><br><br>
+            <label for="i_date">Date <input type="text" name="date"></label><br><br>
+        </form>
+            
+        </div>
+    </section>
+   
+</body>
+</html>
