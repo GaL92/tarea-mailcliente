@@ -14,8 +14,8 @@ header{
 }
 
 header p{
-    font-size: 30px;
-    font-style: oblique ;
+    font-size: 25px;
+    font-weight: bold;
     position: relative;
     top: 63px;
 }
@@ -32,7 +32,7 @@ nav  a {
     border-color: rgb(5, 5, 5);
     box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
     color:white;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     padding: 2px 17px;
     margin: 10px;
@@ -41,8 +41,6 @@ nav  a {
 }
 
 a:hover{background-color:green;}
-
-
 
 .contenedor {
     height: 10vh;
@@ -209,17 +207,21 @@ ul> li{
     text-align: center;
 }
 
-.box-form {
-    font-size: 20px;
-    display: block;
-   justify-content: center;
-
-}
 input{
     border: 0;
     border-bottom:solid 1px black;
+    margin-bottom: 10px;
  }
-
+form{
+    padding: 40px 10px 10px 10px;
+    font-size: 20px;
+}
  form h4{
     font-weight: bold;
+    margin-bottom:15px;
+ }
+
+
+ .inline{
+    display:inline;
  }
