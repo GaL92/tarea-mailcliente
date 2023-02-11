@@ -224,4 +224,25 @@ form{
 
  .inline{
     display:inline;
- }
+    margin: 10px;
+     }
+
+.contenedor2 {
+    display:flex;
+    background-color: rgba(250, 250, 0, 0.5);
+    flex-direction: row;
+    height: 100%;
+    width: 90%;
+    position: relative;
+    left: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+section> h2{
+text-align: center;
+}
+
+ 
