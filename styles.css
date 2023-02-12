@@ -5,7 +5,7 @@
 }
 
 body{
-    padding: 0px 100px 50px 100px  ;
+    padding: 0px 80px 30px 100px  ;
     font-family:"Comic Sans",cursive;
 }
 
@@ -207,7 +207,20 @@ ul> li{
     text-align: center;
 }
 
+dt{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
 
+dd{
+    font-size:20px;
+}
+
+.parrafo{
+    text-indent: 10px;
+    margin: 15px;
+}
 input{
     
     border-bottom:solid 1px black;
