@@ -10,7 +10,7 @@ body{
 }
 
 header{
-    width:1050px; 
+    width:100% 
 }
 
 header p{
@@ -207,13 +207,28 @@ ul> li{
     text-align: center;
 }
 
+
 input{
+    
+    border-bottom:solid 1px black;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-family:"Comic Sans",cursive;
+    font-size: 20px;
+    
+}
+
+fieldset input{
     border: 0;
     border-bottom:solid 1px black;
     margin-bottom: 10px;
+    font-family:"Comic Sans",cursive;
+    font-size: 15px;
  }
+
 form{
-    padding: 40px 10px 10px 10px;
+    padding-top: 10px;
+    width:100%;
     font-size: 20px;
 }
  form h4{
@@ -245,4 +260,30 @@ section> h2{
 text-align: center;
 }
 
+form fieldset.datos label {
+    width: unset;
+    display: inline-flex;
+    flex-basis: 150px;
+    flex-grow: 1;
+}
+fieldset.datos {
+    display: flex;
+    gap: 10px;
+}
+.info-extra .doscol {
+    display: flex;
+    justify-content: flex-start;
+}
+.info-extra .doscol .col {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
  
+.boton{
+  background-color: rgba(250, 250, 0, 0.5);
+  border: none;
+  padding: 10px 40px;
+  text-align: center;
+  font-size: 10px;
+}
